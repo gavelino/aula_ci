@@ -19,6 +19,6 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard
-  local_dir: www
+  keep-history: true
   on:
     branch: master
