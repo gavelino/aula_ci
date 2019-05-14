@@ -9,6 +9,6 @@ it('renders without crashing', () => {
 });
 
 it('test parseToInt', () => {
-  expect(parseInt("3").toEqual(3);
-  expect(parseInt("quatro")).toEqual(4);
+  expect(parseInt("3")).toEqual(3);
+  expect(parseInt("4")).toEqual(4);
 });
