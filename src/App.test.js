@@ -8,7 +8,7 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-// it('test description', () => {
-//   expect(sum(1, 2)).toEqual(3);
-//   expect(sum(2, 2)).toEqual(4);
-// });
+it('test parseToInt', () => {
+  expect(parseInt("3").toEqual(3);
+  expect(parseInt("quatro")).toEqual(4);
+});
